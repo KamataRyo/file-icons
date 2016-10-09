@@ -433,8 +433,9 @@
 
   // Dockerfile
   &[data-name^="Dockerfile"]:before      { .docker-icon;           .dark-blue; }
-  &[data-name$=".dockerfile"]:before	 { .docker-icon;	   .dark-blue; }
+  &[data-name$=".dockerfile"]:before     { .docker-icon;           .dark-blue; }
   &[data-name$=".dockerignore"]:before   { .docker-icon;           .dark-blue; }
+  &[data-name^="docker-compose"]:before  { .docker-icon; }
 
   // Dogescript
   &[data-name$=".djs"]:before            { .doge-icon;         .medium-yellow; }
@@ -812,25 +813,25 @@
   &[data-name$=".wdp"]:before            { .image-icon;             .dark-red; }
 
   // Generic format: Text
-	&[data-name$=".ans"]:before            { .text-icon;           .dark-orange; }
-	&[data-name$=".err"]:before            { .text-icon;            .medium-red; }
-	&[data-name$=".etx"]:before            { .text-icon;         .medium-yellow; }
-	&[data-name$=".irclog"]:before         { .text-icon;           .medium-blue; }
-	&[data-name$=".log"]:before            { .text-icon;         .medium-maroon; }
-	&[data-name$=".msg"]:before            { .text-icon;         .medium-orange; }
-	&[data-name$=".nfo"]:before            { .text-icon;             .dark-blue; }
-	&[data-name$=".rtf"]:before            { .text-icon;              .dark-red; }
-	&[data-name$=".srt"]:before            { .text-icon;         .medium-purple; }
-	&[data-name$=".sub"]:before            { .text-icon;           .dark-purple; }
-	&[data-name$=".text"]:before,
-	&[data-name$=".txt"]:before            { .text-icon;           .medium-blue; }
+  &[data-name$=".ans"]:before            { .text-icon;           .dark-orange; }
+  &[data-name$=".err"]:before            { .text-icon;            .medium-red; }
+  &[data-name$=".etx"]:before            { .text-icon;         .medium-yellow; }
+  &[data-name$=".irclog"]:before         { .text-icon;           .medium-blue; }
+  &[data-name$=".log"]:before            { .text-icon;         .medium-maroon; }
+  &[data-name$=".msg"]:before            { .text-icon;         .medium-orange; }
+  &[data-name$=".nfo"]:before            { .text-icon;             .dark-blue; }
+  &[data-name$=".rtf"]:before            { .text-icon;              .dark-red; }
+  &[data-name$=".srt"]:before            { .text-icon;         .medium-purple; }
+  &[data-name$=".sub"]:before            { .text-icon;           .dark-purple; }
+  &[data-name$=".text"]:before,
+  &[data-name$=".txt"]:before            { .text-icon;           .medium-blue; }
   &[data-name$=".uof"]:before            { .text-icon;              .dark-red; }
   &[data-name$=".uop"]:before            { .text-icon;         .medium-purple; }
   &[data-name$=".uos"]:before            { .text-icon;          .medium-green; }
   &[data-name$=".uot"]:before            { .text-icon;           .medium-blue; }
-	&[data-name$=".utxt"]:before,
-	&[data-name$=".utf8"]:before           { .text-icon;           .medium-cyan; }
-	&[data-name$=".weechatlog"]:before     { .text-icon;          .medium-green; }
+  &[data-name$=".utxt"]:before,
+  &[data-name$=".utf8"]:before           { .text-icon;           .medium-cyan; }
+  &[data-name$=".weechatlog"]:before     { .text-icon;          .medium-green; }
 
   // Generic format: Videos
   &[data-name$="avi"]:before             { .video-icon;          .medium-blue; }
@@ -1063,7 +1064,7 @@
   &[data-name$=".kv"]:before             { .kivy-icon;           .dark-maroon; }
 
   // KML (Keyhole Markup Language)
-  &[data-name$=".kml"]:before            { .earth-icon;          .medium-green; }
+  &[data-name$=".kml"]:before            { .earth-icon;         .medium-green; }
 
   // Kotlin
   &[data-name$=".kt"]:before             { .kotlin-icon;           .dark-blue; }
@@ -1200,17 +1201,17 @@
   &[data-name$=".pat"]:before            { .max-icon;           .medium-green; }
 
   // MAXScript
-  &[data-name$=".ms"]:before            { .maxscript-icon;        .dark-blue; }
-  &[data-name$=".mcr"]:before           { .maxscript-icon;      .dark-purple; }
-  &[data-name$=".mce"]:before           { .maxscript-icon;       .medium-red; }
-  &[data-name$=".max"]:before           { .maxscript-icon;        .dark-cyan; }
-  &[data-name$=".3ds"]:before           { .maxscript-icon;      .medium-cyan; }
+  &[data-name$=".ms"]:before             { .maxscript-icon;        .dark-blue; }
+  &[data-name$=".mcr"]:before            { .maxscript-icon;      .dark-purple; }
+  &[data-name$=".mce"]:before            { .maxscript-icon;       .medium-red; }
+  &[data-name$=".max"]:before            { .maxscript-icon;        .dark-cyan; }
+  &[data-name$=".3ds"]:before            { .maxscript-icon;      .medium-cyan; }
 
   // Maya
-  &[data-name$=".mb"]:before            { .maya-icon;             .dark-cyan; }
-  &[data-name$=".mel"]:before           { .maya-icon;             .dark-blue; }
+  &[data-name$=".mb"]:before             { .maya-icon;             .dark-cyan; }
+  &[data-name$=".mel"]:before            { .maya-icon;             .dark-blue; }
   &[data-name$=".mcfi"]:before,
-  &[data-name$=".mcfp"]:before          { .maya-icon;           .dark-purple; }
+  &[data-name$=".mcfp"]:before           { .maya-icon;           .dark-purple; }
 
   // Manual pages
   &[data-name$=".1"]:before,       &[data-name$=".1b"]:before,
@@ -1818,7 +1819,7 @@
   &[data-name$=".sfproj"]:before         { .sf-icon;            .light-orange; }
 
   // Shell
-  &[data-name$=".inputrc"]:before       { .terminal-icon; }
+  &[data-name$=".inputrc"]:before        { .terminal-icon; }
   &[data-name$=".sh"]:before,
   &[data-name$=".bats"]:before,
   &[data-name$=".bash"]:before,
@@ -1926,7 +1927,7 @@
   &[data-name$=".viw"]:before,
   &[data-name$=".db2"]:before,
   &[data-name$=".prc"]:before            { .sql-icon; }
-  &[data-name$=".dsql"]:before           { .tsql-icon;             .medium-purple; }
+  &[data-name$=".dsql"]:before           { .tsql-icon;         .medium-purple; }
   &[data-name$=".pls"]:before,           // PLSQL
   &[data-name$=".pck"]:before,
   &[data-name$=".pks"]:before,
@@ -2242,7 +2243,7 @@
 
   // Broccoli
   &[data-name^="Brocfile."]:before,
-  &[data-name^="brocfile."]:before        { .broccoli-icon;     .medium-green; }
+  &[data-name^="brocfile."]:before       { .broccoli-icon;      .medium-green; }
 
   // Cargo
   &[data-name$="Cargo.toml"]:before      { .package-icon;       .light-orange; }
